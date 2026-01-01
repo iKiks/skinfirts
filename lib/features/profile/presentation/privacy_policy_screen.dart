@@ -20,20 +20,20 @@ class PrivacyPolicyScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     final titleStyle = Theme.of(context).textTheme.titleLarge?.copyWith(
-          color: AppColors.primary,
-          fontWeight: FontWeight.w700,
-          fontSize: ResponsiveSize.fontSize(20),
-        );
+      color: AppColors.primary,
+      fontWeight: FontWeight.w700,
+      fontSize: ResponsiveSize.fontSize(20),
+    );
     final subtitleStyle = Theme.of(context).textTheme.bodyMedium?.copyWith(
-          color: AppColors.primary,
-          fontWeight: FontWeight.w600,
-          fontSize: ResponsiveSize.fontSize(13),
-        );
+      color: AppColors.primary,
+      fontWeight: FontWeight.w600,
+      fontSize: ResponsiveSize.fontSize(13),
+    );
     final bodyStyle = Theme.of(context).textTheme.bodyMedium?.copyWith(
-          color: AppColors.textSecondary,
-          height: 1.6,
-          fontSize: ResponsiveSize.fontSize(13),
-        );
+      color: AppColors.textSecondary,
+      height: 1.6,
+      fontSize: ResponsiveSize.fontSize(13),
+    );
 
     return Scaffold(
       backgroundColor: AppColors.background,
@@ -74,7 +74,7 @@ class PrivacyPolicyScreen extends StatelessWidget {
             crossAxisAlignment: CrossAxisAlignment.start,
             children: [
               Text(
-                'Last Update: 14/08/2024',
+                'Last Update: 01/01/2026',
                 style: subtitleStyle?.copyWith(
                   color: AppColors.primary.withOpacity(0.7),
                 ),
@@ -89,7 +89,9 @@ class PrivacyPolicyScreen extends StatelessWidget {
               SizedBox(height: ResponsiveSize.height(10)),
               Text(
                 'Terms & Conditions',
-                style: titleStyle?.copyWith(fontSize: ResponsiveSize.fontSize(18)),
+                style: titleStyle?.copyWith(
+                  fontSize: ResponsiveSize.fontSize(18),
+                ),
               ),
               SizedBox(height: ResponsiveSize.height(16)),
               ...List.generate(_terms.length, (index) {
@@ -99,10 +101,7 @@ class PrivacyPolicyScreen extends StatelessWidget {
                   child: Row(
                     crossAxisAlignment: CrossAxisAlignment.start,
                     children: [
-                      Text(
-                        '$itemNumber.',
-                        style: subtitleStyle,
-                      ),
+                      Text('$itemNumber.', style: subtitleStyle),
                       SizedBox(width: ResponsiveSize.width(12)),
                       Expanded(child: Text(_terms[index], style: bodyStyle)),
                     ],

@@ -31,9 +31,7 @@ class ProfileScreen extends StatelessWidget {
       label: 'Privacy Policy',
       onTap: (context) {
         Navigator.of(context).push(
-          MaterialPageRoute<void>(
-            builder: (_) => const PrivacyPolicyScreen(),
-          ),
+          MaterialPageRoute<void>(builder: (_) => const PrivacyPolicyScreen()),
         );
       },
     ),
