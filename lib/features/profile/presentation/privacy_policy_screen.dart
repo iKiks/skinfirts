@@ -6,8 +6,8 @@ class PrivacyPolicyScreen extends StatelessWidget {
   const PrivacyPolicyScreen({super.key});
 
   static const _introParagraphs = [
-    'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent pellentesque congue lorem, vel tincidunt tortor placerat a. Proin ac diam quam. Aenean in sagittis magna, ut feugiat diam. Fusce a scelerisque neque, sed accumsan metus.',
-    'Nunc auctor tortor in dolor luctus, quis euismod urna tincidunt. Aenean arcu metus, bibendum at rhoncus at, volutpat et lacus. Morbi pellentesque malesuada eros semper ultrices. Vestibulum lobortis enim vel neque auctor, a ultrices ex placerat. Mauris ut lacinia justo, sed suscipit tortor. Nam egestas nulla posuere neque tincidunt porta.',
+    'Skinfirts helps you track skin routines, doctor appointments, and product insights. We collect only the personal details needed to personalise your experience, create secure accounts, and connect you with licensed dermatology professionals.',
+    'Your profile data, appointment history, and routine notes stay encrypted and are never sold. We may use anonymised analytics to improve recommendations, but you can export or delete your information from the settings menu at any time.',
   ];
 
   static const _terms = [
