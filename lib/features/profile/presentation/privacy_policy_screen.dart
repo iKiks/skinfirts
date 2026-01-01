@@ -11,10 +11,10 @@ class PrivacyPolicyScreen extends StatelessWidget {
   ];
 
   static const _terms = [
-    'Ut lacinia justo sit amet lorem sodales accumsan. Proin malesuada eleifend fermentum. Donec condimentum, nunc at rhoncus faucibus, ex nisi laoreet ipsum, eu pharetra eros est vitae orci. Morbi quis rhoncus mi. Nullam lacinia ornare accumsan. Duis laoreet, ex eget rutrum pharetra, lectus nisl posuere risus, vel facilisis nisl tellus ac turpis.',
-    'Ut lacinia justo sit amet lorem sodales accumsan. Proin malesuada eleifend fermentum. Donec condimentum, nunc at rhoncus faucibus, ex nisi laoreet ipsum, eu pharetra eros est vitae orci. Morbi quis rhoncus mi. Nullam lacinia ornare accumsan. Duis laoreet, ex eget rutrum pharetra, lectus nisl posuere risus, vel facilisis nisl tellus.',
-    'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent pellentesque congue lorem, vel tincidunt tortor placerat a. Proin ac diam quam. Aenean in sagittis magna, ut feugiat diam.',
-    'Nunc auctor tortor in dolor luctus, quis euismod urna tincidunt. Aenean arcu metus, bibendum at rhoncus at, volutpat et lacus. Morbi pellentesque malesuada eros semper ultrices. Vestibulum lobortis enim vel neque auctor, a ultrices ex placerat. Mauris ut lacinia justo, sed suscipit tortor. Nam egestas nulla posuere neque tincidunt porta.',
+    'You must provide accurate personal details when creating a Skinfirts account. This includes your name, contact information, and any dermatology notes you choose to store so practitioners can offer appropriate care.',
+    'Appointment reminders, treatment plans, and progress photos you upload are stored securely. Do not share login credentials, and notify us immediately if you notice unauthorised activity.',
+    'Product reviews and community posts should remain respectful and free of medical claims. We reserve the right to remove content that is harmful, promotional, or violates healthcare advertising guidelines.',
+    'Deleting your account removes all personal data from our active systems within 30 days. We may retain anonymised analytics to improve services, but they cannot be linked back to you.',
   ];
 
   @override
