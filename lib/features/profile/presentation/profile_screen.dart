@@ -4,6 +4,7 @@ import 'package:skinfirts/core/utils/responsiveness/app_responsiveness.dart';
 import 'package:skinfirts/features/home/presentation/homepage.dart';
 import 'package:skinfirts/features/home/presentation/widgets/home_bottom_nav.dart';
 import 'package:skinfirts/features/profile/presentation/profile_details_screen.dart';
+import 'package:skinfirts/features/profile/presentation/privacy_policy_screen.dart';
 import 'package:skinfirts/features/profile/presentation/widgets/profile_header.dart';
 import 'package:skinfirts/features/profile/presentation/widgets/profile_option_tile.dart';
 
@@ -25,7 +26,17 @@ class ProfileScreen extends StatelessWidget {
       icon: Icons.account_balance_wallet_outlined,
       label: 'Payment Method',
     ),
-    _ProfileOption(icon: Icons.lock_outline, label: 'Privacy Policy'),
+    _ProfileOption(
+      icon: Icons.lock_outline,
+      label: 'Privacy Policy',
+      onTap: (context) {
+        Navigator.of(context).push(
+          MaterialPageRoute<void>(
+            builder: (_) => const PrivacyPolicyScreen(),
+          ),
+        );
+      },
+    ),
     _ProfileOption(icon: Icons.settings_outlined, label: 'Settings'),
     _ProfileOption(icon: Icons.help_outline, label: 'Help'),
     _ProfileOption(

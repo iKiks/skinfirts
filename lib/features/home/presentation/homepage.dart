@@ -154,9 +154,7 @@ class HomePage extends StatelessWidget {
         onItemSelected: (index) {
           if (index == 2) {
             Navigator.of(context).push(
-              MaterialPageRoute<void>(
-                builder: (_) => const ProfileScreen(),
-              ),
+              MaterialPageRoute<void>(builder: (_) => const ProfileScreen()),
             );
           }
         },
